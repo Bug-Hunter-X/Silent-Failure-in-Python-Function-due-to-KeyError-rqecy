@@ -1,0 +1,2 @@
+# Silent Failure in Python Function
+This example demonstrates a subtle bug in Python where a function might fail silently due to an unhandled KeyError.  The function attempts to access a key that might not exist in a dictionary, resulting in a potentially unexpected return value. This behavior can make debugging tricky since there's no explicit error raised.
